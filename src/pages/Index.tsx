@@ -18,6 +18,7 @@ import humus from "@/assets/lebanese-humus.jpg";
 import Apresentation from "@/assets/lebanese-apresentation.jpg";
 import influence from "@/assets/lebanese-influence.jpg";
 import hezbollah from "@/assets/lebanese-hezbollah.jpg";
+import flag from "@/assets/lebanon-flag.jpg";
 
 
 const fadeUp = {
@@ -320,7 +321,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="rounded-xl bg-card border border-border p-6">
                 <h4 className="font-display text-lg font-semibold text-foreground mb-2">🇱🇧 Meaning of the Flag</h4>
-                <ImageSlot label="Lebanese flag" src={flagImage} />
+                <ImageSlot label="Lebanese flag" src={flag} />
                 <p className="font-body text-foreground text-sm mt-4">The cedar represents eternity and the resilience of the Lebanese people, as it is a tree that lives for thousands of years. The red means the blood shed for freedom, white means peace and the snow, and the green cedar is life that never dies.</p>
               </div>
               <div className="rounded-xl bg-card border border-border p-6">
