@@ -11,6 +11,7 @@ import taboo from "@/assets/lebanese-taboo.jpg";
 import tabo from "@/assets/lebanese-tabo.jpg";
 import tabu from "@/assets/lebanese-tabu.jpg";
 import DailyLife from "@/assets/lebanese-dailylife.jpg";
+import economic from "@/assets/lebanese-economic.jpg";
 
 
 const fadeUp = {
@@ -242,7 +243,7 @@ const Index = () => {
               <div className="rounded-xl bg-card border border-border p-6">
                 <p className="font-body text-foreground">The country faces a high cost of living and economic instability as a result of political crises, the Lebanese Civil War, and recent conflicts.</p>
               </div>
-              <ImageSlot label="Economic context" />
+              <ImageSlot label="economic" src={economic} />
             </div>
           </div>
         </CultureSection>
