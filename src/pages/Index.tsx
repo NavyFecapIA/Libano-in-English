@@ -7,9 +7,9 @@ import pigeonRocksImage from "@/assets/pigeon-rocks.jpg";
 import byblowImage from "@/assets/byblos-harbor.jpg";
 import cedarsImage from "@/assets/cedars-lebanon.jpg";
 import greetingImage from "@/assets/lebanese-greeting-handshake.jpg";
-import Taboo from "@/assets/lebanese-taboo.jpg";
-import Tabo from "@/assets/lebanese-tabo.jpg";
-import Tabu from "@/assets/lebanese-tabu.jpg";
+import taboo from "@/assets/lebanese-taboo.jpg";
+import tabo from "@/assets/lebanese-tabo.jpg";
+import tabu from "@/assets/lebanese-tabu.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
