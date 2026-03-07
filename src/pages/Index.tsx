@@ -16,7 +16,7 @@ import kibe from "@/assets/lebanese-kibe.jpg.jpg";
 import esfiha from "@/assets/lebanese-esfiha.jpg";
 import humus from "@/assets/lebanese-humus.jpg";
 import Apresentation from "@/assets/lebanese-apresentation.jpg";
-import influence from "@/assets/lebanon-influence.jpg";
+import influence from "@/assets/lebanese-influence.jpg";
 import hezbollah from "@/assets/lebanese-hezbollah.jpg";
 import flag from "@/assets/lebanon-flag.jpg";
 
