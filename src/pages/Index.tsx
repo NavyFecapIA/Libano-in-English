@@ -7,6 +7,9 @@ import pigeonRocksImage from "@/assets/pigeon-rocks.jpg";
 import byblowImage from "@/assets/byblos-harbor.jpg";
 import cedarsImage from "@/assets/cedars-lebanon.jpg";
 import greetingImage from "@/assets/lebanese-greeting-handshake.jpg";
+import Taboo from "@/assets/lebanese-taboo.jpg";
+import Tabo from "@/assets/lebanese-tabo.jpg";
+import Tabu from "@/assets/lebanese-tabu.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -187,9 +190,9 @@ const Index = () => {
         >
           <div className="space-y-6">
             <div className="grid md:grid-cols-3 gap-4">
-              <ImageSlot label="Cultural respect" />
-              <ImageSlot label="Local customs" />
-              <ImageSlot label="Traditions" />
+              <ImageSlot label="Lebanese Taboo" src={taboo} />
+              <ImageSlot label="Lebanese Tabo" src={tabo} />
+              <ImageSlot label="Lebanese Tabu" src={tabu} />
             </div>
             <div className="space-y-3">
               {[
