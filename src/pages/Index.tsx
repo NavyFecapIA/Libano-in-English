@@ -241,7 +241,7 @@ const Index = () => {
                   <li>Xiitas</li>
                   <li>Sunitas</li>
                   <li>Drusos</li>
-                  <li>Cristãos</li>
+                  <li>Christians</li>
                 </ul>
                 <p className="font-body text-foreground">Many live concentrated in certain regions.</p>
               </div>
