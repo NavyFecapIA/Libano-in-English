@@ -6,6 +6,7 @@ import baalbekImage from "@/assets/baalbek-temple.jpg";
 import pigeonRocksImage from "@/assets/pigeon-rocks.jpg";
 import byblowImage from "@/assets/byblos-harbor.jpg";
 import cedarsImage from "@/assets/cedars-lebanon.jpg";
+import greetingImage from "@/assets/lebanese-greeting.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -167,7 +168,7 @@ const Index = () => {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-6">
-              <ImageSlot label="Handshake custom" />
+              <ImageSlot label="Lebanese greeting gesture" src={greetingImage} />
               <div className="rounded-xl bg-card border border-border p-6">
                 <p className="font-body text-foreground">After shaking hands, it is customary to place your right hand on your heart as a sign of respect and sincerity.</p>
               </div>
