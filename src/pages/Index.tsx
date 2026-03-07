@@ -1,7 +1,7 @@
 import { Compass, Utensils, Users, AlertTriangle, Sun, Sparkles, MapPin, Camera } from "lucide-react";
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-travel.jpg";
-import flagImage from "@/assets/lebanon-greetings.jpg";
+import flagImage from "@/assets/lebanon-greeting.jpg";
 import baalbekImage from "@/assets/baalbek-temple.jpg";
 import pigeonRocksImage from "@/assets/pigeon-rocks.jpg";
 import byblowImage from "@/assets/byblos-harbor.jpg";
