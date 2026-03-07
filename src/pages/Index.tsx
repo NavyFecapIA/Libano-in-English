@@ -12,6 +12,9 @@ import tabo from "@/assets/lebanese-tabo.jpg";
 import tabu from "@/assets/lebanese-tabu.jpg";
 import DailyLife from "@/assets/lebanese-dailylife.jpg";
 import economic from "@/assets/lebanese-economic.jpg";
+import kibe from "@/assets/lebanese-kibe.jpg.jpg";
+import esfiha from "@/assets/lebanese-esfiha.jpg";
+import humus from "@/assets/lebanese-humus.jpg";
 
 
 const fadeUp = {
@@ -226,7 +229,7 @@ const Index = () => {
         >
           <div className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
-              <ImageSlot label="Daily Life" src={DailyLife} />
+              <ImageSlot label="Dailylife" src={DailyLife} />
               <div className="rounded-xl bg-card border border-border p-6 space-y-3">
                 <p className="font-body text-foreground">Lebanese people are usually affectionate, welcoming, and warm.</p>
                 <p className="font-body text-foreground">Different religious groups coexist in Lebanon, such as:</p>
@@ -259,9 +262,9 @@ const Index = () => {
         >
           <div className="space-y-6">
             <div className="grid md:grid-cols-3 gap-4">
-              <ImageSlot label="Lebanese cuisine" />
-              <ImageSlot label="Traditional table" />
-              <ImageSlot label="Mezze spread" />
+              <ImageSlot label="Kibe" src={kibe} />
+              <ImageSlot label="Esfiha" src={esfiha} />
+              <ImageSlot label="Humus" src={humus} />
             </div>
             <div className="rounded-xl bg-card border border-border p-6 space-y-3">
               <p className="font-body text-foreground"><strong>Common foods:</strong> kibbeh, hummus, esfiha.</p>
