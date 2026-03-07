@@ -122,11 +122,11 @@ const Index = () => {
           <motion.div variants={fadeUp} className="flex items-center justify-center gap-2 mb-4">
             <MapPin className="h-5 w-5 text-accent" />
             <span className="font-body text-sm uppercase tracking-[0.3em] text-primary-foreground/80">
-              Guia Cultural de Viagem
+              Cultural Travel Guide
             </span>
           </motion.div>
           <motion.h1 variants={fadeUp} className="font-display text-5xl md:text-7xl font-bold text-primary-foreground text-shadow-hero max-w-4xl mx-auto leading-tight">
-            Descubra o Líbano
+            Discover Lebanon
           </motion.h1>
           <motion.p variants={fadeUp} className="mt-6 font-body text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto text-shadow-hero">
             A comprehensive guide to customs, etiquette, and interesting facts about the land of cedars.
