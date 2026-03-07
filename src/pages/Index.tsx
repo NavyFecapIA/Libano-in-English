@@ -15,6 +15,9 @@ import economic from "@/assets/lebanese-economic.jpg";
 import kibe from "@/assets/lebanese-kibe.jpg.jpg";
 import esfiha from "@/assets/lebanese-esfiha.jpg";
 import humus from "@/assets/lebanese-humus.jpg";
+import Apresentation from "@/assets/lebanese-apresentation.jpg";
+import influence from "@/assets/lebanese-french.jpg";
+import hezbollah from "@/assets/lebanese-hezbollah.jpg";
 
 
 const fadeUp = {
@@ -289,7 +292,7 @@ const Index = () => {
                 <p className="font-body text-foreground text-sm">It means "ball or shape" and originated in the Levant region. It is a staple food, and mixing meat with wheat (abundant in the region) makes it go further. There are regional variations.</p>
               </div>
             </div>
-            <ImageSlot label="Food presentation" />
+            <ImageSlot label="Apresentação" src={Apresentation} />
           </div>
         </CultureSection>
       </div>
@@ -305,12 +308,12 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="rounded-xl bg-card border border-border p-6">
                 <h4 className="font-display text-lg font-semibold text-foreground mb-2">🇫🇷 French influence</h4>
-                <ImageSlot label="French architecture in Lebanon" />
+                <ImageSlot label="French Influence" src={influence} />
                 <p className="font-body text-foreground text-sm mt-4">France had a strong influence on the country during the French Mandate period. As a result, French is widely spoken in Lebanon.</p>
               </div>
               <div className="rounded-xl bg-card border border-border p-6">
                 <h4 className="font-display text-lg font-semibold text-foreground mb-2">⚔️ Hezbollah</h4>
-                <ImageSlot label="Political context" />
+                <ImageSlot label="hezbollah" src={hezbollah} />
                 <p className="font-body text-foreground text-sm mt-4">Hezbollah is a political and armed group that operates in the country and is considered a terrorist organization by some countries.</p>
               </div>
             </div>
