@@ -10,6 +10,8 @@ import greetingImage from "@/assets/lebanese-greeting-handshake.jpg";
 import taboo from "@/assets/lebanese-taboo.jpg";
 import tabo from "@/assets/lebanese-tabo.jpg";
 import tabu from "@/assets/lebanese-tabu.jpg";
+import DailyLife from "@/assets/lebanese-dailylife.jpg";
+
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -223,7 +225,7 @@ const Index = () => {
         >
           <div className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
-              <ImageSlot label="Lebanese daily life" />
+              <ImageSlot label="Daily Life" src={DailyLife} />
               <div className="rounded-xl bg-card border border-border p-6 space-y-3">
                 <p className="font-body text-foreground">Lebanese people are usually affectionate, welcoming, and warm.</p>
                 <p className="font-body text-foreground">Different religious groups coexist in Lebanon, such as:</p>
