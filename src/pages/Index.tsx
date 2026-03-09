@@ -151,7 +151,7 @@ const Index = () => {
               { src: baalbekImage, label: "Baalbek" },
               { src: pigeonRocksImage, label: "Pigeon Rocks, Beirute" },
               { src: byblowImage, label: "Byblos" },
-              { src: cedarsImage, label: "Cedros do Líbano" },
+              { src: cedarsImage, label: "Cedars of Lebanon" },
             ].map(({ src, label }) => (
               <motion.div key={label} variants={scaleIn} className="group relative overflow-hidden rounded-xl">
                 <img src={src} alt={label} className="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
@@ -238,9 +238,9 @@ const Index = () => {
                 <p className="font-body text-foreground">Lebanese people are usually affectionate, welcoming, and warm.</p>
                 <p className="font-body text-foreground">Different religious groups coexist in Lebanon, such as:</p>
                 <ul className="list-disc list-inside space-y-1 font-body text-foreground text-sm pl-2">
-                  <li>Xiitas</li>
-                  <li>Sunitas</li>
-                  <li>Drusos</li>
+                  <li>Shiites</li>
+                  <li>Sunnis</li>
+                  <li>Druze</li>
                   <li>Christians</li>
                 </ul>
                 <p className="font-body text-foreground">Many live concentrated in certain regions.</p>
